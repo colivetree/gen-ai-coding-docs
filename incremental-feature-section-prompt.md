@@ -17,11 +17,19 @@ Generate production-grade, test-driven, secure code that complies with our style
 **Reuse first:** import before re-inventing.
 
 ## 3 · Toolchain Matrix
-```text
-python 3.12 · fastapi 0.111 · pydantic 2.x
-node 20 · typescript 5 · react 19 · vite 5
-terraform ≥ 1.7   · docker compose 2.27
-```text
+
+| Tool | Version |
+|------|---------|
+| Python | 3.12 |
+| FastAPI | 0.111 |
+| Pydantic | 2.x |
+| Node.js | 20 |
+| TypeScript | 5 |
+| React | 19 |
+| Vite | 5 |
+| Terraform | ≥1.7 |
+| Docker Compose | 2.27 |
+
 ## 4 · Dev Container
 .devcontainer.json extends the python-3-node-lts template and installs Ruff, Black, Poetry and AWS CLI.
 
